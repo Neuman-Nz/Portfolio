@@ -1,0 +1,49 @@
+/* #1a1d2c */
+
+body{
+    overflow: hidden;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1a1d2c;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.innerLeft{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #27ae5f;
+    height: 100vh;
+    width: 15%;
+}
+
+.innerCenter{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.imgContainer{
+    height: 80vh;
+    width: 22vw;
+    background-image: url(./assets/images/uuuyy-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 0.5em;
+}
+
+.displayNone{
+    display: none;
+}
