@@ -17,14 +17,33 @@
             <div class="innerCenterContent">
                 <nav>
                     <ul>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Links</li>
+                        <li>
+                            <button onclick="showTab('about')">About</button>
+                        </li>
+                        <li>
+                            <button onclick="showTab('contact')">Contacts</button>
+                        </li>
+                        <li>
+                            <button onclick="showTab('link')">Links</button>
+                        </li>
                     </ul>
                 </nav>
+
+                <div class="mainContent">
+                    <div class="about " id="about" style="display: block;">
+                        <p style="color: white;">A</p>
+                    </div>
+                    <div class="contact displayNone" id="contact">
+                        <p style="color: white;">C</p>
+                    </div>
+                    <div class="link displayNone" id="link">
+                        <p style="color: white;">L</p>
+                    </div>
+                </div>
             </div>
             <div class="innerCenterNav"></div>
         </div>
    </div>
+   <script src="./script.js"></script>
 </body>
 </html>
