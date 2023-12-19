@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neuman's Portfolio</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/61afd5b8b9.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-   <div class="container">
+    <div class="container">
         <div class="innerLeft">
 
         </div>
@@ -15,35 +18,70 @@
             <div class="imgContainer">
             </div>
             <div class="innerCenterContent">
-                <nav>
-                    <ul>
-                        <li>
-                            <button onclick="showTab('about')">About</button>
-                        </li>
-                        <li>
-                            <button onclick="showTab('contact')">Contacts</button>
-                        </li>
-                        <li>
-                            <button onclick="showTab('link')">Links</button>
-                        </li>
-                    </ul>
-                </nav>
 
                 <div class="mainContent">
                     <div class="about " id="about" style="display: block;">
-                        <p style="color: white;">A</p>
+                        <p style="color: white;">
+                        <h1 class="mainHeaderAbout">Hi I'm <b>Neuman Walala</b>. A web Dev Enthusiast</h1>
+                        <span class="aboutP">I am dedicated full-stack web developer proficient in JavaScript, React, Python, and Flask.
+                             With expertise in both front-end and back-end development, I create seamless and responsive digital experiences. 
+                             Passionate about staying updated on industry trends, I leverage innovative technologies to deliver high-quality, scalable solutions.
+                             Explore my portfolio, where every line of code reflects my commitment to the art of web development.</span>
+                        <div class="aboutBtn">
+                            <button>View CV</button>
+                            <div class="icon">
+                                <i class="fa-solid fa-eye" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                        </p>
                     </div>
                     <div class="contact displayNone" id="contact">
-                        <p style="color: white;">C</p>
+                        <p style="color: white;">
+                        <h1 class="mainHeaderAbout">Contact Me</h1>
+                        <div class="contactDiv">
+                            <div><i class="fa-solid fa-at "
+                                    style="color: #ffffff;"></i><span>walalanueman@gmail.com</span></div>
+                            <div><i class="fa-solid fa-phone" style="color: #ffffff;"></i><span>0714328458</span></div>
+                            <div><i class="fa-brands fa-github" style="color: #ffffff;"></i><a
+                                href="https://github.com/Neuman-Nz" target="_blank">github</a></div>
+                            <div><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i><a
+                                    href="https://www.linkedin.com/in/neuman-walala-8134a520b/"
+                                    target="_blank">linkedin</a></div>
+                        </div>
+                        </p>
                     </div>
                     <div class="link displayNone" id="link">
-                        <p style="color: white;">L</p>
+                        <p style="color: white;">
+                            <h1 class="mainHeaderAbout">Links</h1>
+                            
+                        </p>
                     </div>
                 </div>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <button onclick="showTab('about')" class="btns">
+                                <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <button onclick="showTab('contact')" class="btns">
+                                <i class="fa-solid fa-file-signature" style="color: #ffffff;"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <button onclick="showTab('link')" class="btns">
+                                <i class="fa-solid fa-link" style="color: #ffffff;"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="innerCenterNav"></div>
+            <!-- <div class="innerCenterNav"></div> -->
         </div>
-   </div>
-   <script src="./script.js"></script>
+    </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>
